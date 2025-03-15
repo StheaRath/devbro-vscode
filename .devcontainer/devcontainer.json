@@ -1,0 +1,27 @@
+{
+  "name": "Multi-Purpose Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "workspaceFolder": "/home/vscode",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.shell.linux": "/usr/bin/zsh"
+      },
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-python.debugpy",
+        "ms-vscode.cpptools-themes",
+        "ms-python.python",
+        "vscjava.vscode-java-pack",
+        "redhat.java"
+      ]
+    }
+  },
+  "forwardPorts": [],
+  "postCreateCommand": "echo DevBro la! 'Dev container ready with Java 8, C++ and Python (using zsh)!'",
+  "remoteUser": "vscode"
+}

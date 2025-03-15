@@ -1,0 +1,21 @@
+#OS-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if using Node.js)
+node_modules/
+
+# Log files
+*.log
+
+# Environment files (do not track secrets)
+.env
+.env.local
+
+# VS Code workspace settings (optional)
+.vscode/
+
+#Allow the Config
+!Dockerfile
+!devcontainer.json
+!.zshrc
