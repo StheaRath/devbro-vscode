@@ -4,7 +4,6 @@
     "dockerfile": "Dockerfile",
     "context": "."
   },
-  "workspaceFolder": "/home/vscode",
   "customizations": {
     "vscode": {
       "settings": {
