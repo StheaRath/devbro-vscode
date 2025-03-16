@@ -1,5 +1,4 @@
 # Multi-Purpose Dev Container
-
 This repository contains a multi-purpose development container configuration for Visual Studio Code. It provides a consistent, isolated environment for coding, installing libraries, and even hosting web applications—all without affecting your host system.
 
 ## Features
