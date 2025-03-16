@@ -2,7 +2,7 @@
 FROM  mcr.microsoft.com/devcontainers/base:ubuntu
 # Build argument to capture the target platform (e.g., linux/arm64 or linux/amd64)
 ARG TARGETPLATFORM
-#ARG TARGETPLATFORM
+# Set environment variable to run apt non-interactively
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install essential packages for C++ and Python development
