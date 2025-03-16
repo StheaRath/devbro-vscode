@@ -7,7 +7,7 @@ This repository contains a multi-purpose development container configuration for
 - **Pre-configured Environment:** Based on Ubuntu LTS with essential development tools.
 - **Multiple Languages:** Comes with Python and Java 8 and C++ pre-installed. Easily extendable to include other languages.
 - **Java 8:** Installed via openjdk-r PPA.
-- **C++ Development:** Essential build tools (gcc, g++) are pre-installed.
+- **C++ Development:** Essential build tools (gcc, g++,gdb) are pre-installed.
 - **Python:** Python 3 and pip are ready for use.
 - **VS Code Integration:** Seamless integration with VS Code Remote Containers.
 - **Customizable:** Modify the Dockerfile and `devcontainer.json` to add your preferred tools, libraries, and extensions.
@@ -16,12 +16,11 @@ This repository contains a multi-purpose development container configuration for
 
 
 ## Prerequisites
-
 Before you begin, ensure that you have the following installed:
 
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Docker](https://www.docker.com/get-started)
-- VS Code Extension: **Remote - Containers**  
+- VS Code Extension: **Dev Container**  
   (Install it from the Extensions view in VS Code: `Ctrl+Shift+X` or `Cmd+Shift+X`)
 
 ## Getting Started
@@ -36,6 +35,8 @@ Before you begin, ensure that you have the following installed:
 ![build container](.readmeimg/img1.png)
 
 3. **Enjoy the Dev Container!**
+![Cli](.readmeimg/img2.png)
+![extention](.readmeimg/img3.png)
 ### Help me out—Buy me a coffee and make my code (and maybe my tears) flow!
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/strath)

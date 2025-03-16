@@ -12,6 +12,7 @@ RUN apt-get update --allow-releaseinfo-change && apt-get install -y --no-install
     git \
     python3 \
     zsh \
+    gdb \
     python3-pip \
     software-properties-common && \
     apt-get clean -y && rm -rf /var/lib/apt/lists/*
