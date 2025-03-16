@@ -14,5 +14,13 @@ This repository contains a multi-purpose development container configuration for
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/myUsername/myDevRepo.git
-   cd multi-purpose-dev-container
+   git clone https://github.com/StheaRath/devbro-vscode.git
+   code devbro-vscode
+   
+2. **Click Reopen Container:**
+![build container](.readmeimg/img1.png)
+
+3. **Enjoy the Dev Container! Buy me a coffee**
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://buymeacoffee.com/strath)
+
